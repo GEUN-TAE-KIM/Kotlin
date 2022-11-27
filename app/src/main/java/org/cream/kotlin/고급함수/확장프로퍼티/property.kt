@@ -35,7 +35,7 @@ set(value) {
     this[midIndex] = value
 }
 
-fun main() {
+fun main2() {
     val numbers = IntArray(6) {it * it}
 
     println(numbers.midValue)
