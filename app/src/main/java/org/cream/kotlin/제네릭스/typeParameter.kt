@@ -13,7 +13,7 @@ class TreeNode<T>(val data: T) {
 
     private set
 
-    val children: List<TreeNode<T>> get() = _children
+   // val children: List<TreeNode<T>> get() = _children
 
     fun addChild(data: T) = TreeNode(data).also {
         _children += it
