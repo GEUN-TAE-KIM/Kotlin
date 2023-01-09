@@ -1,5 +1,6 @@
 package org.cream.kotlin.day
 
+import org.cream.kotlin.클래스.Car
 import kotlin.random.Random
 
 /*
@@ -94,6 +95,31 @@ fun main15() {
 }
 
 
+/*
+TODO
+ 제네릭
+ */
+fun main() {
+    val car = Car(Tires(17))
+    val car2 = Car("17")
+    val car3 = Car(17)
+
+
+    println(car.getValue())
+    println(car2.getValue())
+    println(car3.getValue())
+}
+
+/*
+data class Tires(val size : Int)
+class Car(private val tires: Tires) {
+    fun getValue() = tires
+}*/
+
+data class Tires(val size : Int)
+class Car<T>(private val tires: T) {
+    fun getValue():T = tires
+}
 
 
 
