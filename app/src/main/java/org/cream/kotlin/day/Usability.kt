@@ -120,16 +120,3 @@ data class Tires(val size : Int)
 class Car<T>(private val tires: T) {
     fun getValue():T = tires
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
