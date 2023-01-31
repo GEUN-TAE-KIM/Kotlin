@@ -1,8 +1,6 @@
 package org.cream.kotlin.특별한클래스.이넘클래스
 
-import java.time.LocalTime
 import java.util.*
-import kotlin.collections.ArrayList
 
 /*
 TODO
@@ -66,9 +64,31 @@ fun main2525() {
 
 }
 
+/*
+TODO
+ 25304
+ */
+fun main25304() {
+    val scan = Scanner(System.`in`)
 
+    val a = scan.nextInt()
+    val b = scan.nextInt()
+    var e = 0
 
+    for (i in 1..b) {
+        val c = scan.nextInt()
+        val d = scan.nextInt()
+        val f = c * d
 
+        e += f
+    }
+
+    if (a == e) {
+        println("Yes")
+    } else {
+        println("No")
+    }
+}
 
 
 

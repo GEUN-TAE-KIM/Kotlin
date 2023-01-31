@@ -1,4 +1,4 @@
-package org.cream.kotlin.Baekjoon.Step2
+package org.cream.kotlin.Baekjoon.StepByStep.Step2
 
 /*
 TODO
