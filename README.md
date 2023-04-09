@@ -12,3 +12,10 @@ Kotlin 연습 -> https://play.kotlinlang.org/
 4. 그래프 이론
 5. 중급 고급 동적 프로그래밍
 6. 문자열
+
+https://www.hackerrank.com/
+1. 해시
+2. 스택/큐
+3. 힙
+4. 정렬
+5. 완전탐색
