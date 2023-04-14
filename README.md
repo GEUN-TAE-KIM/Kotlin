@@ -19,3 +19,5 @@ Kotlin 연습 -> https://play.kotlinlang.org/
 3. 힙
 4. 정렬
 5. 완전탐색
+
+코드 개선 : Android lint, ktlint, detekt
