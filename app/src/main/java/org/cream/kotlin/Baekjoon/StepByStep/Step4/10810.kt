@@ -6,6 +6,6 @@ TODO
  */
 fun main() = with(System.`in`.bufferedReader()) {
 
-    val n = readLine()!!.split(" ").map { it.toLong() }
+    val n = readLine()!!.split(" ").map { it.toInt() }
 
 }
